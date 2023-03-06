@@ -1,0 +1,203 @@
+h1{
+    font-size: 40px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+h2{
+    font-size: 30px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em
+}
+
+
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    height: 100%;
+    min-height: 100%;
+    
+}
+
+body{ 
+    
+    overflow-y: scroll;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+label, input , select {
+    margin-bottom: 32px;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 80px;
+    resize: none;
+    border: 10px;
+    border-radius: 10px;    
+}
+
+form div{
+    display: flex;
+    gap: 5px;
+}
+
+form div button{
+    flex-grow: 1;
+}
+
+ul li{
+    margin-bottom: 30px;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;      
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+footer{
+    background-color: #112031;
+    padding-bottom: 0;    
+    color: white;
+    margin-top: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #1d3d47; 
+       
+    
+}
+
+
+#cabecalho {
+    background-color: #112031;         
+    display: flex;
+    flex-direction: row-reverse;    
+    padding: 10px;
+    box-shadow: 0px 10px 0px 0px #112031d5;    
+}
+
+#container{
+    display: flex;    
+}
+
+#form-esquerda{
+    min-width: 300px;
+    width: 400px;
+    padding: 20px;
+    color: white;
+    background-color: #150d41;
+    background-size: contain;    
+    box-shadow: 10px 0px #1d3d47;    
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+
+#lista-direita{
+    min-width: 300px;
+    
+}
+
+#statics-container{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;    
+}
+
+#statics-container div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    background-color: #150d41;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em    
+}
+
+#in-pesquisa{
+   margin-left: 40px;
+   width: 400px;      
+}
+    
+
+
+#lista{
+    border: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;   
+}
+
+#pesquisar{
+    background:url(/Imagens/botao_procurar.png) no-repeat; 
+    cursor:pointer;
+    width: 55px; 
+    height: 55px; 
+    border: none;
+    font-size:0%  
+}
+
+#limpar{
+    background:url(/Imagens/Clean\ Btn.png) no-repeat; 
+    cursor:pointer;
+    width: 55px; 
+    height: 55px; 
+    border: none;
+    font-size:0%  
+}
+
+.linkYoutube{
+    background:url(/Imagens/Video\ Btn.png) no-repeat; 
+    cursor:pointer;
+    width: 55px; 
+    height: 55px; 
+    border: none;
+    font-size:0%
+}
+
+.btnEdit{
+    background:url(/Imagens/Edit\ Button.png) no-repeat; 
+    cursor:pointer;
+    width: 55px; 
+    height: 55px; 
+    border: none;
+    font-size:0%
+    
+    
+}
+
+.btnRemove{
+    background:url(/Imagens/Delete\ Btn.png) no-repeat; 
+    cursor:pointer;
+    width: 55px; 
+    height: 55px; 
+    border: none;
+    font-size:0%
+}
+
+#rodape {
+    display: flex;
+    justify-content: space-around;   
+    
+}

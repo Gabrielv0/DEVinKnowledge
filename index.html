@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInProject</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Imagens/book 1.png">
+    <script src="app.js" type="module"></script>
+    
+</head>
+<body>
+
+  <header id="cabecalho">
+    <div>
+      <img src="/Imagens/book 1.png">
+    </div>
+    <div>
+    <h1>DEVinKnowledge</h1>
+  </div>
+  </header>
+
+<div id="container">
+  <div id="form-esquerda">
+  <h2>DevInHouse</h2>
+
+    <h3>Formulário:</h3>
+
+      <form id="formulario">     
+        
+            <label for="in-titulo">Titulo:</label>
+            <input minlength="8" maxlength="64" type="text" 
+            id="titulo" name="titulo" placeholder="Informe a linguagem..." required/>
+
+            <label for="in-linguagem">Linguagem:</label>
+            <input minlength="4" maxlength="16" type="text" id="linguagem" name="linguagem"  placeholder="Informe a linguagem..." required />
+        
+            <label for="in-Categoria">Categoria:</label>
+            <select name="Categorias" id="categoria">
+                <option value="FrontEnd">FrontEnd</option>
+                <option value="BackEnd">BackEnd</option>
+                <option value="FullStack">FullStack</option>
+                <option value="SoftSkill">SoftSkill</option>
+
+            </select>
+
+            <label for="in-descricao">Descrição:</label>
+            <textarea minlength="32" maxlength="512" name="descricao" id="descricao" 
+            name="descricao" placeholder="Informe a linguagem..." required></textarea>
+        
+            <label for="in-youtube">Video do Youtube*</label>
+            <input type="url" id="youtube" name="youtube" minlength="18" maxlength="100"
+            placeholder="Digite o link para o video..." />
+        
+            <div id="form-botoes">
+                <button  id="btnSalva" type="submit" value="Salvar">Salvar</button>  
+                <button id="btnLimpa" type="reset">Limpar</button>
+            </div>
+      </form>  
+    </div>  
+  
+  <div id="lista-direita">    
+
+    <div id="statics-container">      
+      <div>
+        <p>FrontEnd</p>
+        <p id="frontEnd">0</p>
+      </div>
+      <div>
+        <p>BackEnd</p>
+        <p id="backEnd">0</p>
+      </div>
+      <div>
+        <p>FullStack</p>
+        <p id="fullStack">0</p>
+      </div>
+      <div>
+        <p>SoftSkill</p>
+        <p id="softSkill">0</p>
+      </div>
+      <div>
+        <p>Total</p>
+        <p id="total">0</p>
+      </div>
+    </div>
+
+    <label for="in-pesquisa"></label>
+    <input id="in-pesquisa" name="pesquisa" type="text" placeholder="Digite o que deseja ser pesquisado...">
+    <button id="pesquisar">Pesquisar</button>
+    <button id="limpar">Limpar</button>
+    <h2>Listagem:</h2>
+
+    <div id="cards">
+      <ul id="lista"></ul>
+    </div>
+
+  </div>
+</div>
+
+<footer> 
+  <div id="rodape">
+    <div>
+       <p>Curso Full Stack - DEVinHouse - EDP</p>
+    </div>
+      <div>
+        <p>Projeto 01</p>
+      </div>
+      <div>
+        <p>Desenvolvido por Gabriel F. Amorim</p>   
+      </div>
+  </div>
+  </div>
+</footer>
+    
+
+    
+
+
+
+      
+
+
+
+</body>
+</html>
